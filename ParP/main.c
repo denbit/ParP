@@ -9,8 +9,7 @@ int main(int argc, char* argv[]) {
 		puts(argv + i);
 	}
 	gets();
-	LoadLibrary("dll.dll");
-	gets();
+	
 
 	return 0;
 }
