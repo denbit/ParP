@@ -1,8 +1,8 @@
-#pragma warnings(disable)
+#pragma warning(disable:4068)
 
 #include<stdio.h>
-#include <windows.h>
-#include "Header.h"
+#include "dll.h"
+#include "lab1.h"
 
 int main(int argc, char* argv[]) {
 	/*printf(" count is %d \n", argc);
@@ -12,7 +12,7 @@ int main(int argc, char* argv[]) {
 	gets();*/
 	
 	DisplayHelloFromMyDLL();
-	gets();
-
+	printf(" it is %d words",calculate());
+	getchar();
 	return 0;
 }
