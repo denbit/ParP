@@ -21,12 +21,18 @@
     <ClCompile Include="lab1.c">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="lab2.c">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="dll.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
     <ClInclude Include="lab1.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="lab2.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
   </ItemGroup>

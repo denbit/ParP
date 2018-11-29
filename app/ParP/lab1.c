@@ -1,4 +1,5 @@
-#include"C:\Users\Den\source\repos\ParP\app\ParP\lab1.h"
+#include"lab1.h"
+#define _CRT_SECURE_NO_WARNINGS
 
 #include<stdio.h>
 #include<string.h>
@@ -27,6 +28,6 @@ void get_string(char * str)
 	char strs[COUNT];
 	puts("You have entered: ");
 	puts(gets_s(strs, COUNT));
-	str = strs;
+	strcpy(str, strs);
 }
 
