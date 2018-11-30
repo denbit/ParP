@@ -1,6 +1,6 @@
-#pragma warning(disable:4996)
 #include"lab1.h"
-
+#define _CRT_SECURE_NO_WARNINGS
+#include"lab1.h"
 #include<stdio.h>
 #include<string.h>
 #include<ctype.h>

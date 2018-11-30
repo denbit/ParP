@@ -3,6 +3,7 @@
 #include<stdio.h>
 #include "dll.h"
 #include "lab1.h"
+#include "lab2.h"
 
 int main(int argc, char* argv[]) {
 	/*printf(" count is %d \n", argc);
@@ -11,8 +12,12 @@ int main(int argc, char* argv[]) {
 	}
 	gets();*/
 	
-	DisplayHelloFromMyDLL();
+	//DisplayHelloFromMyDLL();
+	load();
 	printf(" it is %d words",calculate());
+	load();
+	load();
+	load();
 	getchar();
 	return 0;
 }
