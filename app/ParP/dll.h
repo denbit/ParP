@@ -1,2 +1,2 @@
 #pragma once
-__declspec(dllimport) void DisplayHelloFromMyDLL();
+__declspec(dllimport) int  calculateFromDLL(char *);
